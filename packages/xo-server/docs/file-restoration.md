@@ -21,7 +21,7 @@ $ rmdir /tmp/vhd-mount
 
 ## List available partitions
 
-Partitionned disk:
+Partitioned disk:
 
 ```console
 $ partx --bytes --output=NR,START,SIZE,NAME,UUID,TYPE --pairs /tmp/vhd-mount/vhdi2
